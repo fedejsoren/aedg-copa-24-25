@@ -96,6 +96,7 @@ const tournaments: Tournament[] = [
 
 export default function TournamentResults() {
   const [selectedTournament, setSelectedTournament] = useState<Tournament | null>(null)
+  const [selectedOverallCategory, setSelectedOverallCategory] = useState<string | null>(null)
 
   const calculatePoints = (position: number) => {
     if (position === 1) return 25
@@ -158,10 +159,7 @@ export default function TournamentResults() {
       .sort((a, b) => b.points - a.points)
   }
 
-  const categories = selectedTournament
-    ? Array.from(new Set(selectedTournament.results.map(r => r.category)))
-    : []
-
+  const categories = Array.from(new Set(tournaments.flatMap(t => t.results.map(r => r.category))))
   const overallPlayerResults = calculateOverallPlayerResults()
   const overallClubResults = calculateOverallClubResults()
 
@@ -256,32 +254,68 @@ export default function TournamentResults() {
           </Card>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-6">
           <Card>
             <CardHeader>
-              <CardTitle>Resultado global de jugadores</CardTitle>
+              <CardTitle>Resultado general de jugadores</CardTitle>
             </CardHeader>
             <CardContent>
-              <Table>
-                <TableHeader>
-                  <TableRow>
-                    <TableHead>Jugador</TableHead>
-                    <TableHead>Categoría</TableHead>
-                    <TableHead>Club</TableHead>
-                    <TableHead>Puntos totales</TableHead>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {overallPlayerResults.map((result, index) => (
-                    <TableRow key={index}>
-                      <TableCell>{result.player}</TableCell>
-                      <TableCell>{result.category}</TableCell>
-                      <TableCell>{result.club}</TableCell>
-                      <TableCell>{result.totalPoints}</TableCell>
-                    </TableRow>
+              <Tabs defaultValue="all" className="w-full">
+                <TabsList className="mb-4">
+                  <TabsTrigger value="all" onClick={() => setSelectedOverallCategory(null)}>Todas las categorías</TabsTrigger>
+                  {categories.map(category => (
+                    <TabsTrigger key={category} value={category} onClick={() => setSelectedOverallCategory(category)}>
+                      {category}
+                    </TabsTrigger>
                   ))}
-                </TableBody>
-              </Table>
+                </TabsList>
+                <TabsContent value="all">
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead>Jugador</TableHead>
+                        <TableHead>Categoría</TableHead>
+                        <TableHead>Club</TableHead>
+                        <TableHead>Puntos totales</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {overallPlayerResults.map((result, index) => (
+                        <TableRow key={index}>
+                          <TableCell>{result.player}</TableCell>
+                          <TableCell>{result.category}</TableCell>
+                          <TableCell>{result.club}</TableCell>
+                          <TableCell>{result.totalPoints}</TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </TabsContent>
+                {categories.map(category => (
+                  <TabsContent key={category} value={category}>
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Jugador</TableHead>
+                          <TableHead>Club</TableHead>
+                          <TableHead>Puntos totales</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {overallPlayerResults
+                          .filter(result => result.category === category)
+                          .map((result, index) => (
+                            <TableRow key={index}>
+                              <TableCell>{result.player}</TableCell>
+                              <TableCell>{result.club}</TableCell>
+                              <TableCell>{result.totalPoints}</TableCell>
+                            </TableRow>
+                          ))}
+                      </TableBody>
+                    </Table>
+                  </TabsContent>
+                ))}
+              </Tabs>
             </CardContent>
           </Card>
 
