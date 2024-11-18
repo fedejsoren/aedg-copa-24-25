@@ -182,7 +182,7 @@ export default function TournamentResults() {
         <div className="space-y-6">
           <Card>
             <CardHeader>
-              <CardTitle>Resultado general de jugadores</CardTitle>
+              <CardTitle>Líderes</CardTitle>
             </CardHeader>
             <CardContent>
               <Tabs defaultValue="all" className="w-full">
