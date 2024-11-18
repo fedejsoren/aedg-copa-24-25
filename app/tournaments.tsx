@@ -1,4 +1,7 @@
-export const tournaments = [
+'use client';
+import { Tournament } from "./page";
+
+export const tournaments: Tournament[] = [
   {
     "id": 1,
     "name": "Desafío Aralar Erronka",
@@ -72,9 +75,7 @@ export const tournaments = [
       { category: "MJ18", club: "Esperit", player: "Lucas Gómez Feijoo", position: 1 }
     ]
   }
-]
-export const scoring = [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-
+];
 
 /* TEMPLATE
 [

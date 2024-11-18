@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { tournaments } from './tournaments'
 
 type Result = {
   category: string
@@ -12,87 +13,11 @@ type Result = {
   position: number
 }
 
-type Tournament = {
+export type Tournament = {
   id: number
   name: string
   results: Result[]
 }
-
-const tournaments: Tournament[] = [
-  {
-    "id": 1,
-    "name": "Desafío Aralar Erronka",
-    "results": [
-      { category: "MPO", club: "Lekumberri", player: "Rafael Sarriegui Hidalgo", position: 1 },
-      { category: "MPO", club: "Lekumberri", player: "Kristopher Vanbogelen", position: 2 },
-      { category: "FPO", club: "Lekumberri", player: "Lorea Zulet Ruiz", position: 1 },
-      { category: "MP50", club: "Bilbao", player: "David Angulo", position: 1 },
-      { category: "MP50", club: "Baxi", player: "Mikel Ibarrola Manterola", position: 2 },
-      { category: "MP50", club: "Bilbao", player: "Jose Sampedro Santin", position: 3 },
-      { category: "MA3", club: "International", player: "Hugo Rodriguez Fernandez", position: 1 },
-      { category: "MA3", club: "Compostela", player: "Pedro Gonzalez Bascoy", position: 2 },
-      { category: "MA3", club: "Oviedo", player: "Daniel Díaz Castro", position: 3 },
-      { category: "MA3", club: "International", player: "Fraser Ambrose", position: 4 },
-      { category: "MA3", club: "International", player: "Armando Del Olmo", position: 5 },
-      { category: "MA4", club: "Bilbao", player: "Asier Merino Lekue", position: 1 },
-      { category: "MJ18", club: "Bilbao", player: "Beñat Lopez Arribas", position: 1 },
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Intermad",
-    "results": [
-      { category: "MPO", club: "Lekumberri", player: "Rafael Sarriegui Hidalgo", position: 4 },
-      { category: "MPO", club: "Toros Mijas", player: "Markus Pohjolainen", position: 1 },
-      { category: "MPO", club: "Esperit", player: "Marc Lopez Lopez", position: 2 },
-      { category: "MPO", club: "Oviedo", player: "Gorka Beltran de Heredia Alvarez", position: 2 },
-      { category: "MPO", club: "International", player: "Martin Murray", position: 5 },
-      { category: "MPO", club: "Flying", player: "Merlin Sales-Tomas Sales", position: 6 },
-      { category: "MPO", club: "International", player: "Jorge BerÁstegui-Sampedro", position: 7 },
-      { category: "FPO", club: "Asturias", player: "Ana María Álvarez Menendez", position: 1 },
-      { category: "FPO", club: "Osona", player: "Queralt Pinyol", position: 2 },
-      { category: "FPO", club: "International", player: "Vanessa Fernandez Fernandez", position: 3 },
-      { category: "MP40", club: "International", player: "Robert Abel", position: 1 },
-      { category: "MP40", club: "Compostela", player: "Iván Gutiérrez De Terán", position: 2 },
-      { category: "MP40", club: "Compostela", player: "Manuel Angel Almeida Posada", position: 2 },
-      { category: "MP40", club: "Esperit", player: "David Wilde", position: 4 },
-      { category: "MP40", club: "Osona", player: "Marc Font Font", position: 5 },
-      { category: "MP40", club: "Compostela", player: "Alejandro Liz Graña", position: 6 },
-      { category: "MP50", club: "Bilbao", player: "David Angulo", position: 2 },
-      { category: "MP50", club: "Baxi", player: "Iñaki González Olaizola", position: 1 },
-      { category: "MP50", club: "Oviedo", player: "Javier Del Riego", position: 3 },
-      { category: "MP50", club: "International", player: "Toni Barrientos", position: 4 },
-      { category: "MP50", club: "Baxi", player: "Antonio Negrete Gutiérrez", position: 5 },
-      { category: "MP50", club: "Esperit", player: "Eloy Gomez Ingelmo", position: 6 },
-      { category: "MP50", club: "International", player: "Ismael Rodriguez", position: 7 },
-      { category: "MA3", club: "International", player: "Hugo Rodriguez Fernandez", position: 2 },
-      { category: "MA3", club: "Oviedo", player: "Daniel Díaz Castro", position: 1 },
-      { category: "MA3", club: "International", player: "Fraser Ambrose", position: 7 },
-      { category: "MA3", club: "International", player: "Armando Del Olmo", position: 6 },
-      { category: "MA3", club: "International", player: "Juan Aramburu", position: 3 },
-      { category: "MA3", club: "International", player: "Nelson Zurdo", position: 4 },
-      { category: "MA3", club: "International", player: "Stefan Nestelberger", position: 5 },
-      { category: "MA3", club: "International", player: "Pepe García", position: 8 },
-      { category: "MA3", club: "International", player: "Lucas Rey Braga", position: 9 },
-      { category: "MA3", club: "International", player: "Héctor Triano Alcántara", position: 10 },
-      { category: "MA3", club: "International", player: "Nacho Ocho", position: 11 },
-      { category: "MA3", club: "Asturias", player: "Jorge Almeida", position: 11 },
-      { category: "MA4", club: "International", player: "Arturo García Rodrigo", position: 1 },
-      { category: "MA4", club: "International", player: "Rubén Hoya", position: 2 },
-      { category: "MA4", club: "Oviedo", player: "José Francisco Hernández López", position: 3 },
-      { category: "MA4", club: "Osona", player: "Ferran Boix Piella", position: 4 },
-      { category: "MA4", club: "Oviedo", player: "Javier Lorences Fernandez", position: 5 },
-      { category: "MA4", club: "Oviedo", player: "Hernán Fernández Joglar", position: 6 },
-      { category: "MA4", club: "Oviedo", player: "Marcos Garcia Almeida", position: 7 },
-      { category: "MA4", club: "International", player: "Dennis Neiman", position: 8 },
-      { category: "MA4", club: "International", player: "John Turcany", position: 9 },
-      { category: "MA4", club: "International", player: "Francisco Panero", position: 10 },
-      { category: "MA4", club: "International", player: "Miguel Angel Moral", position: 10 },
-      { category: "MA4", club: "International", player: "Eduardo Martín Manzanera", position: 12 },
-      { category: "MJ18", club: "Esperit", player: "Lucas Gómez Feijoo", position: 1 }
-    ]
-  }
-]
 
 export default function TournamentResults() {
   const [selectedTournament, setSelectedTournament] = useState<Tournament | null>(null)
