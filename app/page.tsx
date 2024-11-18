@@ -46,7 +46,7 @@ export default function TournamentResults() {
     return Object.entries(clubPoints)
       .map(([club, points]) => ({
         club,
-        points: points.sort((a, b) => b - a).slice(0, 3).reduce((sum, p) => sum + p, 0)
+        points: points.sort((a, b) => b - a).slice(0, 5).reduce((sum, p) => sum + p, 0)
       }))
       .sort((a, b) => b.points - a.points)
   }
