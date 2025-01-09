@@ -137,6 +137,7 @@ export const tournaments: Tournament[] = [
       { category: "MA4", club: "Madrid international disc golf", player: "Francisco Panero", position: null },
       { category: "MA4", club: "Madrid international disc golf", player: "Miguel Angel Moral", position: null },
       { category: "MA4", club: "Madrid international disc golf", player: "Eduardo Martín Manzanera", position: null },
+      { category: "MA4", club: "Esperit disc golf club", player: "Enric de Pablo", position: null },
       { category: "MJ18", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: null },
       { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: null }
     ]
