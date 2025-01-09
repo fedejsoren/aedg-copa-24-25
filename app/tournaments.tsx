@@ -68,10 +68,11 @@ export const tournaments: Tournament[] = [
       { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 6 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Marcos Garcia Almeida", position: 7 },
       { category: "MA4", club: "Madrid international disc golf", player: "Dennis Neiman", position: 8 },
-      { category: "MA4", club: "Madrid international disc golf", player: "John Turcany", position: 9 },
-      { category: "MA4", club: "Madrid international disc golf", player: "Francisco Panero", position: 10 },
-      { category: "MA4", club: "Madrid international disc golf", player: "Miguel Angel Moral", position: 10 },
-      { category: "MA4", club: "Madrid international disc golf", player: "Eduardo Martín Manzanera", position: 12 },
+      { category: "MA4", club: "Esperit disc golf club", player: "Enric de Pablo", position: 9 },
+      { category: "MA4", club: "Madrid international disc golf", player: "John Turcany", position: 10 },
+      { category: "MA4", club: "Madrid international disc golf", player: "Francisco Panero", position: 11 },
+      { category: "MA4", club: "Madrid international disc golf", player: "Miguel Angel Moral", position: 12 },
+      { category: "MA4", club: "Madrid international disc golf", player: "Eduardo Martín Manzanera", position: 13 },
       { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: 1 }
     ]
   }
