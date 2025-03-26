@@ -76,6 +76,50 @@ export const tournaments: Tournament[] = [
       { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: 1 }
     ]
   }
+  {
+    "id": 3,
+    "name": "IV Abierto de Chipiona",
+    "results": [
+      { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 3 },
+      { category: "MPO", club: "Toros Mijas", player: "Andreas Havnegjerde", position: 1 },
+      { category: "MPO", club: "Asturias disc golf club", player: "Manuel Domínguez Gallardo", position: 2 },
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Gorka Beltran de Heredia Alvarez", position: 5 },
+      { category: "MPO", club: "Madrid international disc golf", player: "Martin Murray", position: 7 },
+      { category: "MPO", club: "Esperit disc golf club", player: "Marc Lopez Lopez", position: 4 },
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Carlos Fernandez Ortega", position: 6 },
+      { category: "FPO", club: "Toros Mijas", player: "Sanna Ahlgren", position: 1 },
+      { category: "FPO", club: "Toros Mijas", player: "Leah Bizier", position: 2 },
+      { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Lorea Zulet Ruiz", position: 3 },
+      { category: "MP40", club: "Madrid international disc golf", player: "Robert Abel", position: 5 },
+      { category: "MP40", club: "Toros Mijas", player: "Juha Kytö", position: 1 },
+      { category: "MP40", club: "Toros Mijas", player: "Ari Koski-Vähälä", position: 2 },
+      { category: "MP40", club: "Toros Mijas", player: "Tero Kolunsarka", position: 3 },
+      { category: "MP40", club: "Compostela disc golf club", player: "Manuel Angel Almeida Posada", position: 4 },
+      { category: "MP50", club: "Toros Mijas", player: "Geir Bengtsson", position: 1 },
+      { category: "MP50", club: "Toros Mijas", player: "Sami Alm", position: 2 },
+      { category: "MP50", club: "Asturias disc golf club", player: "Germán Dominguez Pimentel", position: 3 },
+      { category: "MP50", club: "Asturias disc golf club", player: "Manuel Dominguez Pimentel", position: 4 },
+      { category: "MP50", club: "Madrid international disc golf", player: "Toni Barrientos", position: 5 },
+      { category: "MP50", club: "Esperit disc golf club", player: "Eloy Gomez Ingelmo", position: 6 },
+      { category: "MP50", club: "Puerta de Doñana", player: "Leonardo Montilla", position: 7 },
+      { category: "MP50", club: "Puerta de Doñana", player: "Eduardo Dominguez Vidal", position: 7 },
+      { category: "MP50", club: "Madrid international disc golf", player: "Ismael Rodriguez", position: 9 },
+      { category: "MP50", club: "Puerta de Doñana", player: "Francisco Guirado", position: 10 },
+      { category: "MA3", club: "Toros Mijas", player: "Sebastian Döde", position: 1 },
+      { category: "MA3", club: "Madrid international disc golf", player: "Rubén Hoya", position: 2 },
+      { category: "MA3", club: "Toros Mijas", player: "Nicolai Aasen", position: 2 },
+      { category: "MA3", club: "Madrid international disc golf", player: "Luis Andrés Aspe von Essen", position: 4 },
+      { category: "MA3", club: "Toros Mijas", player: "Mikko Wikman", position: 4 },
+      { category: "MA3", club: "Toros Mijas", player: "Niko Uusitalo", position: 6 },
+      { category: "MA3", club: "Puerta de Doñana", player: "Lorenzo García Ramírez", position: 7 },
+      { category: "MA3", club: "Puerta de Doñana", player: "Christian Palomeque", position: 8 },
+      { category: "MA3", club: "Asturias disc golf club", player: "Jorge Almeida", position: 9 },
+      { category: "MA3", club: "Toros Mijas", player: "Joel Latvasalo", position: 10 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 2 },
+      { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: 1 }
+    ]
+  }
 ];
 
 /* TEMPLATE
