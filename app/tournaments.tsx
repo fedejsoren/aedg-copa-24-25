@@ -75,7 +75,7 @@ export const tournaments: Tournament[] = [
       { category: "MA4", club: "Madrid international disc golf", player: "Eduardo Martín Manzanera", position: 13 },
       { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: 1 }
     ]
-  }
+  },
   {
     "id": 3,
     "name": "IV Abierto de Chipiona",
