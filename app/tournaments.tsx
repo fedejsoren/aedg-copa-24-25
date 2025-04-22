@@ -120,7 +120,7 @@ export const tournaments: Tournament[] = [
       { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 2 },
       { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: 1 }
     ]
-  },{
+  }, {
     "id": 1,
     "name": "V Open Xacobeo",
     "results": [
@@ -136,12 +136,13 @@ export const tournaments: Tournament[] = [
       { category: "MP50", club: "Compostela disc golf club", player: "Alejandro Caporale", position: 1 },
       { category: "MA3", club: "Madrid international disc golf", player: "Pepe García", position: 1 },
       { category: "MA3", club: "Asturias disc golf club", player: "Jorge Almeida", position: 2 },
-      { category: "MA3", club: "Compostela disc golf club", player: "Jorge Suarez de lis", position: 3 },
+      { category: "MA3", club: "Compostela disc golf club", player: "Jorge Suarez de lis", position: 3 }, 
       { category: "MA4", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1 },
-      { category: "MA3", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 2 },
-      { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 3 },
-      { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 4 },
-      { category: "MA4", club: "Disc golf club Oviedo", player: "Germán Muñoz Nacarino", position: 5 }
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Francisco Leonardo Fagundes dos Santos", position: 2 },
+      { category: "MA4", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 3 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 4 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 5 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Germán Muñoz Nacarino", position: 6 }
     ]
   }
 ];
