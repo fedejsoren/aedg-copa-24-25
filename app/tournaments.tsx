@@ -120,6 +120,29 @@ export const tournaments: Tournament[] = [
       { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 2 },
       { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: 1 }
     ]
+  },{
+    "id": 1,
+    "name": "V Open Xacobeo",
+    "results": [
+      { category: "MPO", club: "Asturias disc golf club", player: "Leon Blanco", position: 1 },
+      { category: "MPO", club: "Asturias disc golf club", player: "Manuel Domínguez Gallardo", position: 2 },
+      { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 3 },
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Daniel Díaz Castro", position: 4 },
+      { category: "FPO", club: "Asturias disc golf club", player: "Ana María Álvarez Menendez", position: 1 },
+      { category: "MP40", club: "Compostela disc golf club", player: "Manuel Angel Almeida Posada", position: 1 },
+      { category: "MP40", club: "Compostela disc golf club", player: "Iván Gutiérrez De Terán", position: 2 },
+      { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 3 },
+      { category: "MP40", club: "Compostela disc golf club", player: "Jacobo Morais Maceira", position: 4 },
+      { category: "MP50", club: "Compostela disc golf club", player: "Alejandro Caporale", position: 1 },
+      { category: "MA3", club: "Madrid international disc golf", player: "Pepe García", position: 1 },
+      { category: "MA3", club: "Asturias disc golf club", player: "Jorge Almeida", position: 2 },
+      { category: "MA3", club: "Compostela disc golf club", player: "Jorge Suarez de lis", position: 3 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1 },
+      { category: "MA3", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 2 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 3 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 4 },
+      { category: "MA3", club: "Compostela disc golf club", player: "Germán Muñoz Nacarino", position: 5 }
+    ]
   }
 ];
 
