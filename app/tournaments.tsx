@@ -141,7 +141,7 @@ export const tournaments: Tournament[] = [
       { category: "MA3", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 2 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 3 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 4 },
-      { category: "MA3", club: "Compostela disc golf club", player: "Germán Muñoz Nacarino", position: 5 }
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Germán Muñoz Nacarino", position: 5 }
     ]
   }
 ];
