@@ -65,7 +65,7 @@ export const tournaments: Tournament[] = [
       { category: "MA4", club: "Madrid international disc golf", player: "Rubén Hoya", position: 2 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 3 },
       { category: "MA4", club: "Osona discgolf", player: "Ferran Boix Piella", position: 4 },
-      { category: "MA4", club: "Disc golf club Oviedo", player: "Rimu Stille", position: 5 },
+      { category: "MA4", club: "Madrid international disc golf", player: "Rimu Stille", position: 5 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 6 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 7 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Marcos Garcia Almeida", position: 8 },

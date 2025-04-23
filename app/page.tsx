@@ -29,7 +29,7 @@ export default function TournamentResults() {
     if (position === 3) return 16
     if (position === 4) return 13
     if (position === 5) return 11
-    if (position >= 6 && position <= 14) return 16 - position
+    if (position >= 6 && position <= 13) return 15 - position
     return 1
   }
 
