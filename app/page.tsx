@@ -26,9 +26,9 @@ export default function TournamentResults() {
   const calculatePoints = (position: number) => {
     if (position === 1) return 25
     if (position === 2) return 20
-    if (position === 3) return 16
-    if (position === 4) return 13
-    if (position === 5) return 11
+    if (position === 3) return 15
+    if (position === 4) return 11
+    if (position === 5) return 10
     if (position >= 6 && position <= 13) return 15 - position
     return 1
   }
