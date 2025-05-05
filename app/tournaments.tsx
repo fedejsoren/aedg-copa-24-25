@@ -167,7 +167,7 @@ export const tournaments: Tournament[] = [
       { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Antonio Negrete Gutiérrez", position: 4 },
       { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Mikel Ibarrola Manterola", position: 5 },
       { category: "MP50", club: "Madrid international disc golf", player: "Toni Barrientos", position: 6 },
-      { category: "MP50", club: "Madrid international disc golf", player: "Ismael Rodriguez", position: 7 }
+      { category: "MP50", club: "Madrid international disc golf", player: "Ismael Rodriguez", position: 7 },
       { category: "MA3", club: "Madrid international disc golf", player: "Hugo Rodriguez Fernandez", position: 1 }, 
       { category: "MA3", club: "Esperit disc golf club", player: "Daniel Aguilar Velez", position: 2 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1, },
