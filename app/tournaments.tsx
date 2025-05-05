@@ -122,7 +122,7 @@ export const tournaments: Tournament[] = [
       { category: "MJ18", club: "Esperit disc golf club", player: "Lucas Gómez Feijoo", position: 1 }
     ]
   }, {
-    "id": 1,
+    "id": 4,
     "name": "V Open Xacobeo",
     "results": [
       { category: "MPO", club: "Asturias disc golf club", player: "Leon Blanco", position: 1 },
@@ -144,6 +144,35 @@ export const tournaments: Tournament[] = [
       { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 4 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 5 },
       { category: "MA4", club: "Disc golf club Oviedo", player: "Germán Muñoz Nacarino", position: 6 }
+    ]
+  }, {
+    "id": 5,
+    "name": "V Navarra Open - Nafarroako Irekia",
+    "results": [
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Carlos Fernandez Ortega", position: 1 },
+      { category: "MPO", club: "Esperit disc golf club", player: "Marc Lopez Lopez", position: 2 },
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Gorka Beltran de Heredia Alvarez", position: 3 },
+      { category: "MPO", club: "Puerta de Doñana", player: "Miguel Espiau", position: 4 },
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Miguel Caparrós", position: 5 },
+      { category: "MPO", club: "Puerta de Doñana", player: "Victor Parejo Ávila", position: 6 },
+      { category: "FPO", club: "Esperit disc golf club", player: "Celia Aranda Reina", position: 1 },
+      { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Lorea Zulet Ruiz", position: 2 },
+      { category: "FPO", club: "Baxi Basajauna disc golf Elkartea", player: "Elixabete Lorenzo Borda", position: 3 },
+      { category: "FPO", club: "Madrid international disc golf", player: "Vanessa Fernandez Fernandez", position: 4 },
+      { category: "MP40", club: "Bilbao disc golf club", player: "Calixto García Velasco", position: 1 },
+      { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 2 },
+      { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Iñaki Gonzalez Olaizola", position: 1 }, 
+      { category: "MP50", club: "Disc golf club Oviedo", player: "Raúl López-Cancio Marínez", position: 2 },
+      { category: "MP50", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 2 },
+      { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Antonio Negrete Gutiérrez", position: 4 },
+      { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Mikel Ibarrola Manterola", position: 5 },
+      { category: "MP50", club: "Madrid international disc golf", player: "Toni Barrientos", position: 6 },
+      { category: "MP50", club: "Madrid international disc golf", player: "Ismael Rodriguez", position: 7 }
+      { category: "MA3", club: "Madrid international disc golf", player: "Hugo Rodriguez Fernandez", position: 1 }, 
+      { category: "MA3", club: "Esperit disc golf club", player: "Daniel Aguilar Velez", position: 2 },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1, },
+      { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 2 },
+      { category: "MA4", club: "Esperit disc golf club", player: "Enric de Pablo Morales", position: 3 },
     ]
   }
 ];
