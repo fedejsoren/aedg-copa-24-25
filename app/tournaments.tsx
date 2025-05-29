@@ -161,7 +161,7 @@ export const tournaments: Tournament[] = [
       { category: "FPO", club: "Madrid international disc golf", player: "Vanessa Fernandez Fernandez", position: 4 },
       { category: "MP40", club: "Bilbao disc golf club", player: "Calixto García Velasco", position: 1 },
       { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 2 },
-      { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Iñaki Gonzalez Olaizola", position: 1 }, 
+      { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Iñaki González Olaizola", position: 1 }, 
       { category: "MP50", club: "Disc golf club Oviedo", player: "Raúl López-Cancio Marínez", position: 2 },
       { category: "MP50", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 2 },
       { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Antonio Negrete Gutiérrez", position: 4 },
