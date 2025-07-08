@@ -182,7 +182,7 @@ export const tournaments: Tournament[] = [
       { category: "MPO", club: "Disc golf club Oviedo", player: "Gorka Beltran de Heredia Alvarez", position: 2 },
       { category: "MPO", club: "Disc golf club Oviedo", player: "Carlos Fernandez Ortega", position: 3 },
       { category: "MPO", club: "Disc golf club Oviedo", player: "Miguel Caparrós", position: 4 },
-      { category: "MA3", club: "Disc golf club Oviedo", player: "Daniel Díaz Castro", position: 5 },
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Daniel Díaz Castro", position: 5 },
       { category: "MPO", club: "Madrid international disc golf", player: "Jorge BerÁstegui-Sampedro", position: 7 },
       { category: "MPO", club: "Madrid international disc golf", player: "Aida Rey Braga", position: 8 },
 
