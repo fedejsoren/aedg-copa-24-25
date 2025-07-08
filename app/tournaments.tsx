@@ -184,7 +184,7 @@ export const tournaments: Tournament[] = [
       { category: "MPO", club: "Disc golf club Oviedo", player: "Miguel Caparrós", position: 4 },
       { category: "MPO", club: "Disc golf club Oviedo", player: "Daniel Díaz Castro", position: 5 },
       { category: "MPO", club: "Madrid international disc golf", player: "Jorge BerÁstegui-Sampedro", position: 7 },
-      { category: "MPO", club: "Madrid international disc golf", player: "Aida Rey Braga", position: 8 },
+      { category: "MPO", club: "Disc golf club Oviedo", player: "Aida Rey Braga", position: 8 },
 
       { category: "FPO", club: "Disc golf club Oviedo", player: "Aitana Belen Valverde Velázquez", position: 1 },
       { category: "FPO", club: "Osona discgolf", player: "Queralt Pinyol", position: 2 },
