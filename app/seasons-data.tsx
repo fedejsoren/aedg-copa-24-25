@@ -265,6 +265,8 @@ export const seasons: Season[] = [
         ]
       }
     ]
+  }
+]
 
 /* TEMPLATE
 [
