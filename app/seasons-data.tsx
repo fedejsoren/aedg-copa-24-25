@@ -1,46 +1,7 @@
 import type { Season } from "./types"
 
 export const seasons: Season[] = [
-  {
-    id: "2025-2026",
-    name: "Copa 2025-2026",
-    tournaments: [
-      {
-        id: 1,
-        name: "Desafío Aralar Erronka",
-        results: [
-          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 1 },
-          { category: "MPO", club: "Madrid international disc golf", player: "Hugo Rodriguez Fernandez", position: 2 },
-          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 2 },
-          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Neil Graefe", position: 4 },
-          { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Lorea Zulet Ruiz", position: 1 },
-          { category: "FPO", club: "Osona discgolf", player: "Queralt Pinyol", position: 2 },
-          { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 1 },
-          { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 2 },
-          { category: "MP40", club: "Osona discgolf", player: "Marc Font Font", position: 3 },
-          {
-            category: "MP50",
-            club: "Baxi Basajauna disc golf Elkartea",
-            player: "Iñaki González Olaizola",
-            position: 1,
-          },
-          { category: "MP50", club: "Bilbao disc golf club", player: "David Angulo", position: 2 },
-          {
-            category: "MP50",
-            club: "Baxi Basajauna disc golf Elkartea",
-            player: "Antonio Negrete Gutiérrez",
-            position: 3,
-          },
-          { category: "MP50", club: "Madrid international disc golf", player: "Ismael Rodriguez", position: 4 },
-          { category: "MP60", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 1 },
-          { category: "MP60", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 2 },
-          { category: "MA3", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1 },
-          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo Morales", position: 2 },
-          { category: "MJ18", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 1 },
-        ],
-      },
-    ],
-  },
+
   {
     id: "2024-2025",
     name: "Copa 2024-2025",
@@ -265,6 +226,45 @@ export const seasons: Season[] = [
         ]
       }
     ]
+  }, {
+    id: "2025-2026",
+    name: "Copa 2025-2026",
+    tournaments: [
+      {
+        id: 1,
+        name: "Desafío Aralar Erronka",
+        results: [
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 1 },
+          { category: "MPO", club: "Madrid international disc golf", player: "Hugo Rodriguez Fernandez", position: 2 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 2 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Neil Graefe", position: 4 },
+          { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Lorea Zulet Ruiz", position: 1 },
+          { category: "FPO", club: "Osona discgolf", player: "Queralt Pinyol", position: 2 },
+          { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 1 },
+          { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 2 },
+          { category: "MP40", club: "Osona discgolf", player: "Marc Font Font", position: 3 },
+          {
+            category: "MP50",
+            club: "Baxi Basajauna disc golf Elkartea",
+            player: "Iñaki González Olaizola",
+            position: 1,
+          },
+          { category: "MP50", club: "Bilbao disc golf club", player: "David Angulo", position: 2 },
+          {
+            category: "MP50",
+            club: "Baxi Basajauna disc golf Elkartea",
+            player: "Antonio Negrete Gutiérrez",
+            position: 3,
+          },
+          { category: "MP50", club: "Madrid international disc golf", player: "Ismael Rodriguez", position: 4 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 1 },
+          { category: "MP60", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 2 },
+          { category: "MA3", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1 },
+          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo Morales", position: 2 },
+          { category: "MJ18", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 1 },
+        ],
+      },
+    ],
   }
 ]
 
