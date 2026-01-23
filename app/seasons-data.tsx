@@ -293,7 +293,7 @@ export const seasons: Season[] = [
           { category: "MPO", club: "Madrid international disc golf", player: "Rubén Hoya", position: 8 },
           { category: "MP40", club: "Asturias disc golf club", player: "Manuel Angel Almeida Posada", position: 1 },
           { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 2 },
-          { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 3 },
+          { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 2 },
           { category: "MP40", club: "Bilbao disc golf club", player: "Calixto García Velasco", position: 4 },
           { category: "MP40", club: "Madrid international disc golf", player: "Rimu Stille", position: 5 },
           {
