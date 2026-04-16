@@ -279,7 +279,7 @@ export const seasons: Season[] = [
         ],
       },
       {
-        id: 1,
+        id: 2,
         name: "MIDG - INTERMAD 5.0",
         results: [
           { category: "MPO", club: "Madrid international disc golf", player: "Arturo García Rodrigo", position: 1 },
@@ -325,6 +325,23 @@ export const seasons: Season[] = [
           { category: "MA4", club: "Madrid international disc golf", player: "Miguel Angel Moral", position: 6 },
           { category: "MJ18", club: "Osona discgolf", player: "Matias Matinlauri Valentin", position: 1 },
           { category: "MJ18", club: "Esperit disc golf club", player: "Ilay Wilde Altés", position: 2 },
+        ],
+      },
+      {
+        id: 3,
+        name: "The Mijas Open 2026",
+        results: [
+          { category: "MPO", club: "Toros Mijas", player: "	Andreas Havnegjerde", position: 1 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 2 },
+          { category: "MPO", club: "Toros Mijas", player: "Nicolai Aasen", position: 3 },
+          { category: "FPO", club: "Toros Mijas", player: "Leah Bizier", position: 1 },
+          { category: "MP40", club: "Toros Mijas", player: "Sam Pehrsson", position: 1 },
+
+          { category: "MA1", club: "Toros Mijas", player: "Sebastian Döde", position: 1 },
+          { category: "MA1", club: "Puerta de Doñana", player: "Miguel Espiau", position: 2 },
+          { category: "MA1", club: "Toros Mijas", player: "Niko Uusitalo", position: 3 },
+          { category: "MA1", club: "Puerta de Doñana", player: "Christian Palomeque", position: 4 },
+          { category: "MA4", club: "Toros Mijas", player: "Lasse Lehtovirta", position: 1 },
         ],
       },
     ],
