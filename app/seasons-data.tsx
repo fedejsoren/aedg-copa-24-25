@@ -333,14 +333,9 @@ export const seasons: Season[] = [
         results: [
           { category: "MPO", club: "Toros Mijas", player: "	Andreas Havnegjerde", position: 1 },
           { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 2 },
-          { category: "MPO", club: "Toros Mijas", player: "Nicolai Aasen", position: 3 },
           { category: "FPO", club: "Toros Mijas", player: "Leah Bizier", position: 1 },
           { category: "MP40", club: "Toros Mijas", player: "Sam Pehrsson", position: 1 },
 
-          { category: "MA1", club: "Toros Mijas", player: "Sebastian Döde", position: 1 },
-          { category: "MA1", club: "Puerta de Doñana", player: "Miguel Espiau", position: 2 },
-          { category: "MA1", club: "Toros Mijas", player: "Niko Uusitalo", position: 3 },
-          { category: "MA1", club: "Puerta de Doñana", player: "Christian Palomeque", position: 4 },
           { category: "MA4", club: "Toros Mijas", player: "Lasse Lehtovirta", position: 1 },
         ],
       },
