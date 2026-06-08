@@ -260,6 +260,7 @@ export const seasons: Season[] = [
           { category: "MP60", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 1 },
           { category: "MP60", club: "Disc golf club Oviedo", player: "Ignacio Del Riego", position: 2 },
           { category: "MP60", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 3 },
+
           { category: "MA3", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1 },
           { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo Morales", position: 2 },
 
@@ -379,10 +380,13 @@ export const seasons: Season[] = [
           { category: "MP60", club: "Madrid international disc golf", player: "Francisco Panero", position: 6 },
           { category: "MP60", club: "Madrid international disc golf", player: "Jose Barrientos", position: 7 },
 
+          { category: "MA3", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 1 },
 
-          { category: "MA4", club: "", player: "Jon Ander Azkona", position: 1 },
-          { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 2 },
-          { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "Ion Juguera", position: 3 },
+          { category: "MA4", club: "Osona discgolf", player: "Matti Matinlauri", position: 1 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 2 },
+          { category: "MA4", club: "", player: "Jon Ander Azkona", position: 3 },
+          { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 4 },
+          { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "Ion Juguera", position: 5 },
 
 
           { category: "MJ18", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 1 },
