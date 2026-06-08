@@ -315,7 +315,7 @@ export const seasons: Season[] = [
           { category: "MA4", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
           { category: "MA4", club: "Madrid international disc golf", player: "Lucas Rey Braga", position: 2 },
           { category: "MA4", club: "Osona discgolf", player: "Matti Matinlauri", position: 3 },
-          { category: "MA4", club: "", player: "Jon Ander Azkona", position: 4 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 4 },
           { category: "MA4", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 5 },
           { category: "MA4", club: "Madrid international disc golf", player: "Miguel Angel Moral", position: 6 },
           { category: "MJ18", club: "Osona discgolf", player: "Matias Matinlauri Valentin", position: 1 },
@@ -384,7 +384,7 @@ export const seasons: Season[] = [
 
           { category: "MA4", club: "Osona discgolf", player: "Matti Matinlauri", position: 1 },
           { category: "MA4", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 2 },
-          { category: "MA4", club: "", player: "Jon Ander Azkona", position: 3 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 3 },
           { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 4 },
           { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "Ion Juguera", position: 5 },
 
