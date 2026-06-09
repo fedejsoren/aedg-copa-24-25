@@ -353,7 +353,7 @@ export const seasons: Season[] = [
           { category: "FPO", club: "Osona discgolf", player: "Queralt Pinyol", position: 3 },
 
           { category: "MP40", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 1 },
-          { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 2 },
+          { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 1 },
           { category: "MP40", club: "Osona discgolf", player: "Marc Font Font", position: 3 },
 
           {
