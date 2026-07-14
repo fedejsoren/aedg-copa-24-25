@@ -392,7 +392,70 @@ export const seasons: Season[] = [
           { category: "MJ18", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 1 },
           { category: "MJ18", club: "Esperit disc golf club", player: "Ilay Wilde Altés", position: 2 },
         ],
-      },
+      },{
+        id: 5,
+        name: "VI Oviedo Open",
+        results: [
+          { category: "MPO", club: "Asturias disc golf club", player: "Leon Blanco", position: 1 },
+          { category: "MPO", club: "Puerta de Doñana", player: "Manuel Dominguez Gallardo", position: 2 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 2 },
+          { category: "MPO", club: "Disc golf club Oviedo", player: "Daniel Díaz Castro", position: 4 },
+          { category: "MPO", club: "Disc golf club Oviedo", player: "Carlos Fernandez Ortega", position: 5 },
+          { category: "MPO", club: "Disc golf club Oviedo", player: "Aida Rey Braga", position: 6 },
+          { category: "MPO", club: "Flying squirrels", player: "Merlin Sales-Tomas Sales", position: 6 },
+          { category: "MPO", club: "Disc golf club Oviedo", player: "Miguel Caparros", position: 7 },
+
+
+          { category: "MP40", club: "Compostela disc golf club", player: "Manuel Angel Almeida Posada", position: 1 },
+          { category: "MP40", club: "Esperit disc golf club", player: "David Wilde", position: 2 },
+          { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 3 },
+
+
+          { category: "MP40", club: "Compostela disc golf club", player: "Iván Gutiérrez De Terán", position: 1 },
+          { category: "MP50", club: "Disc golf club Oviedo", player: "Raúl López-Cancio Marínez", position: 2 },
+          {
+            category: "MP50",
+            club: "Baxi Basajauna disc golf Elkartea",
+            player: "Iñaki González Olaizola",
+            position: 3,
+          },
+          { category: "MP50", club: "Compostela disc golf club", player: "Alejandro Caporale", position: 4 },
+          {
+            category: "MP50",
+            club: "Baxi Basajauna disc golf Elkartea",
+            player: "Antonio Negrete Gutiérrez",
+            position: 5,
+          },
+
+
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 1 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Gabino Luis Herrero Menendez", position: 2 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Veremundo Rey Carriles", position: 3 },
+          { category: "MP50", club: "Disc golf club Oviedo", player: "Pedro Ojeado Feijoo", position: 4 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Ignacio Del Riego", position: 5 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Pedro Sanchez Rodriguez", position: 6 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Juan Ignacio de Arcos", position: 7 },
+
+          { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
+          { category: "MA3", club: "Madrid international disc golf", player: "Pepe García", position: 2 },
+          { category: "MA3", club: "Esperit disc golf club", player: "Dani Balateu Paños", position: 3 },
+          { category: "MA4", club: "Esperit disc golf club", player: "Enric de Pablo", position: 4 },
+          { category: "MA3", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 5 },
+
+          { category: "MA4", club: "Disc golf club Oviedo", player: "Hector Diaz", position: 2 },
+          { category: "MA4", club: "Disc golf club Oviedo", player: "Hernán Fernández Joglar", position: 2 },
+          { category: "MA4", club: "Disc golf club Oviedo", player: "Javier Lorences Fernandez", position: 3 },
+          { category: "MA4", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 4 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 5 },
+          { category: "MA4", club: "Compostela disc golf club", player: "Jorge Suarez de lis", position: 6 },
+          { category: "MA4", club: "Compostela disc golf club", player: "Iago Riveiro Rodriguez", position: 7 },
+          { category: "MA4", club: "Toros Mijas", player: "Petteri Salo", position: 8 },
+
+
+          { category: "MJ18", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 1 },
+          { category: "MJ18", club: "Esperit disc golf club", player: "Ilay Wilde Altés", position: 2 },
+        ],
+      }
     ],
   }
 ]
