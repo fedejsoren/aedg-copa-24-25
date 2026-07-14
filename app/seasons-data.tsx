@@ -411,7 +411,7 @@ export const seasons: Season[] = [
           { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 3 },
 
 
-          { category: "MP40", club: "Compostela disc golf club", player: "Iván Gutiérrez De Terán", position: 1 },
+          { category: "MP50", club: "Compostela disc golf club", player: "Iván Gutiérrez De Terán", position: 1 },
           { category: "MP50", club: "Disc golf club Oviedo", player: "Raúl López-Cancio Marínez", position: 2 },
           {
             category: "MP50",
@@ -431,7 +431,7 @@ export const seasons: Season[] = [
           { category: "MP60", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 1 },
           { category: "MP60", club: "Disc golf club Oviedo", player: "Gabino Luis Herrero Menendez", position: 2 },
           { category: "MP60", club: "Disc golf club Oviedo", player: "Veremundo Rey Carriles", position: 3 },
-          { category: "MP50", club: "Disc golf club Oviedo", player: "Pedro Ojeado Feijoo", position: 4 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Pedro Ojeado Feijoo", position: 4 },
           { category: "MP60", club: "Disc golf club Oviedo", player: "Ignacio Del Riego", position: 5 },
           { category: "MP60", club: "Disc golf club Oviedo", player: "Pedro Sanchez Rodriguez", position: 6 },
           { category: "MP60", club: "Disc golf club Oviedo", player: "Juan Ignacio de Arcos", position: 7 },
@@ -439,7 +439,7 @@ export const seasons: Season[] = [
           { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
           { category: "MA3", club: "Madrid international disc golf", player: "Pepe García", position: 2 },
           { category: "MA3", club: "Esperit disc golf club", player: "Dani Balateu Paños", position: 3 },
-          { category: "MA4", club: "Esperit disc golf club", player: "Enric de Pablo", position: 4 },
+          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 4 },
           { category: "MA3", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 5 },
 
           { category: "MA4", club: "Disc golf club Oviedo", player: "Hector Diaz", position: 2 },
