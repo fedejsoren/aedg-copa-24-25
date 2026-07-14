@@ -45,24 +45,48 @@ export default function TournamentResults() {
   }
 
   const calculateOverallPlayerResults = () => {
-    const playerResults: { [key: string]: { player: string; category: string; club: string; totalPoints: number } } = {}
+    const tournamentsToCount = Math.ceil(
+      selectedSeason.tournaments.length * 0.6
+    )
+
+    const playerResults: {
+      [key: string]: {
+        player: string
+        category: string
+        club: string
+        points: number[]
+      }
+    } = {}
+
     selectedSeason.tournaments.forEach((tournament) => {
       tournament.results.forEach((result) => {
         const points = calculatePoints(result.position)
         const key = `${result.player}-${result.category}`
+
         if (!playerResults[key]) {
           playerResults[key] = {
             player: result.player,
             category: result.category,
             club: result.club,
-            totalPoints: points,
+            points: [points],
           }
         } else {
-          playerResults[key].totalPoints += points
+          playerResults[key].points.push(points)
         }
       })
     })
-    return Object.values(playerResults).sort((a, b) => b.totalPoints - a.totalPoints)
+
+    return Object.values(playerResults)
+      .map((player) => ({
+        player: player.player,
+        category: player.category,
+        club: player.club,
+        totalPoints: player.points
+          .sort((a, b) => b - a)
+          .slice(0, tournamentsToCount)
+          .reduce((sum, p) => sum + p, 0),
+      }))
+      .sort((a, b) => b.totalPoints - a.totalPoints)
   }
 
   const calculateOverallClubResults = () => {
