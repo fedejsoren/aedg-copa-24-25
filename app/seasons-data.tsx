@@ -439,7 +439,7 @@ export const seasons: Season[] = [
           { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
           { category: "MA3", club: "Madrid international disc golf", player: "Pepe García", position: 2 },
           { category: "MA3", club: "Esperit disc golf club", player: "Dani Balateu Paños", position: 3 },
-          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 4 },
+          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo Morales", position: 4 },
           { category: "MA3", club: "Disc golf club Oviedo", player: "José Francisco Hernández López", position: 5 },
 
           { category: "MA4", club: "Disc golf club Oviedo", player: "Hector Diaz", position: 2 },
