@@ -477,15 +477,19 @@ export const seasons: Season[] = [
 
           { category: "MP40", club: "Osona discgolf", player: "Matti Matinlauri", position: 1 },
           { category: "MP40", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 2 },
+          
+          { category: "MP50", club: "Lekunberri Kirol Elkartea", player: "Daniel Taylor", position: 1 },
 
-          { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Iñaki González Olaizola", position: 1 },
-          { category: "MP50", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 2 },
+          { category: "MP60", club: "Baxi Basajauna disc golf Elkartea", player: "Iñaki González Olaizola", position: 1 },
+          { category: "MP60", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 2 },
 
           { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
           { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 2 },
 
           { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 1 },
-          { category: "MA4", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 2 },
+          { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "Ion Juguera", position: 2 },
+          { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "	Fernando Zabalza González", position: 3 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 4 },
         ]
       }
     ]
