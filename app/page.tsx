@@ -9,7 +9,7 @@ import { seasons } from "./seasons-data"
 import type { Result, Tournament, Season } from "./types"
 
 export default function TournamentResults() {
-  const [selectedSeason, setSelectedSeason] = useState<Season>(seasons[1]) // Default to current season 2025-2026
+  const [selectedSeason, setSelectedSeason] = useState<Season>(seasons[2]) // Default to current season 2026-2027
   const [selectedTournament, setSelectedTournament] = useState<Tournament | null>(null)
   const [selectedOverallCategory, setSelectedOverallCategory] = useState<string | null>(null)
 

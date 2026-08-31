@@ -457,6 +457,38 @@ export const seasons: Season[] = [
         ],
       }
     ],
+  }, 
+  {
+    id: "2026-2027",
+    name: "Copa 2026-2027",
+    tournaments: [
+      {
+        "id": 1,
+        "name": "Desafío Aralar Erronka by Prodiscus",
+        "results": [
+          { category: "MPO", club: "Esperit disc golf club", player: "Xavier Aguilar Velez", position: 1 },
+          { category: "MPO", club: "Osona discgolf", player: "Matias Matinlauri Valentin", position: 2 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Neil Graefe", position: 3 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 4 },
+
+          { category: "MPO", club: "Esperit disc golf club", player: "Carla Martín López", position: 1 },
+          { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Lorea Zulet Ruiz", position: 2 },
+          { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Laura Olivares Perez", position: 3 },
+
+          { category: "MP40", club: "Osona discgolf", player: "Matti Matinlauri", position: 1 },
+          { category: "MP40", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 2 },
+
+          { category: "MP50", club: "Baxi Basajauna disc golf Elkartea", player: "Iñaki González Olaizola", position: 1 },
+          { category: "MP50", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 2 },
+
+          { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
+          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 2 },
+
+          { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 1 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 2 },
+        ]
+      }
+    ]
   }
 ]
 
