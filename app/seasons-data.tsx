@@ -491,6 +491,70 @@ export const seasons: Season[] = [
           { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "	Fernando Zabalza González", position: 3 },
           { category: "MA4", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 4 },
         ]
+      },
+      {
+        "id": 2,
+        "name": "IV Bizkaiko Open",
+        "results": [
+          { category: "MPO", club: "Asturias disc golf club", player: "Leon Blanco", position: 1 },
+          { category: "MPO", club: "Bilbao disc golf club", player: "Jon Hedreida", position: 2 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 3 },
+          { category: "MPO", club: "Osona discgolf", player: "Matias Matinlauri Valentin", position: 4 },
+          { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Neil Graefe", position: 5 },
+
+          { category: "FPO", club: "Esperit disc golf club", player: "Laura Olivares Perez", position: 2 },
+
+          { category: "MP40", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 1 },
+          { category: "MP40", club: "Osona discgolf", player: "Matti Matinlauri", position: 2 },
+          
+          { category: "MP50", club: "Bilbao disc golf club", player: "David Angulo", position: 1 },
+          { category: "MP50", club: "Bilbao disc golf club", player: "Calixto García Velasco", position: 2 },
+          { category: "MP50", club: "Bilbao disc golf club", player: "Francisco Campos Guerrero", position: 3},
+
+          { category: "MP60", club: "Pozuelo Disc Golf", player: "Toni Barrientos", position: 1 },
+          { category: "MP60", club: "Baxi Basajauna disc golf Elkartea", player: "Antonio Negrete Gutiérrez", position: 2 },
+          { category: "MP60", club: "Madrid international disc golf", player: "Francisco Panero", position: 3 },
+          { category: "MP60", club: "Pozuelo Disc Golf", player: "Jose Barrientos", position: 2 },
+
+          { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
+          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 2 },
+
+          { category: "MA4", club: "Bilbao disc golf club", player: "Beñat Lopez Arribas", position: 1 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 2 },
+          { category: "MA4", club: "Bilbao disc golf club", player: "Pepe Segura", position: 3 },
+        ]
+      },
+      {
+        "id": 3,
+        "name": "VI Open Xacobeo × Latitude 64°",
+        "results": [
+          { category: "MPO", club: "Asturias disc golf club", player: "Leon Blanco", position: 1 },
+          { category: "MP40", club: "Compostela disc golf club", player: "Iván Gutiérrez De Terán", position: 2 },
+          { category: "MP40", club: "Compostela disc golf club", player: "Manuel Angel Almeida Posada", position: 3 },
+          { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Caporale", position: 4 },
+
+          { category: "FPO", club: "Asturias disc golf club", player: "Ana María Álvarez Menendez", position: 1 },
+
+          { category: "MP40", club: "Compostela disc golf club", player: "Alejandro Liz Graña", position: 1 },
+          
+          { category: "MP60", club: "Baxi Basajauna disc golf Elkartea", player: "Iñaki González Olaizola", position: 1 },
+
+          { category: "MP60", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 2 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Javier Del Riego", position: 2 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Ignacio Del Riego", position: 3 },
+          { category: "MP60", club: "Disc golf club Oviedo", player: "Juan Carlos Crespo", position: 3 },
+
+          { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
+          { category: "MA3", club: "Disc golf club Oviedo", player: "Pedro Arconada Gomez", position: 2 },
+          { category: "MA3", club: "Compostela disc golf club", player: "Álvaro Brey Vilas", position: 3 },
+          { category: "MA3", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 4 },
+          { category: "MA3", club: "Asturias disc golf club", player: "	Jorge Almeida", position: 5 },
+          { category: "MA3", club: "Compostela disc golf club", player: "Jorge Suárez de Lis", position: 6 },
+
+          { category: "MA4", club: "Compostela disc golf club", player: "Rodrigo Pacheco Garcia", position: 1 },
+          { category: "MA4", club: "Compostela disc golf club", player: "Jorge Gomez Cereijo", position: 2 },
+          { category: "MA4", club: "Compostela disc golf club", player: "Iago Riveiro Rodríguez", position: 3 },
+        ]
       }
     ]
   }
