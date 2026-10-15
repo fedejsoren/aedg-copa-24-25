@@ -555,6 +555,24 @@ export const seasons: Season[] = [
           { category: "MA4", club: "Compostela disc golf club", player: "Jorge Gomez Cereijo", position: 2 },
           { category: "MA4", club: "Compostela disc golf club", player: "Iago Riveiro Rodríguez", position: 3 },
         ]
+      },
+      {
+        "id": 4,
+        "name": "Intermad 5.0",
+        "results": [
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Chipiona",
+        "results": [
+        ]
+      },
+      {
+        "id": 6,
+        "name": "VII Oviedo Open",
+        "results": [
+        ]
       }
     ]
   }
