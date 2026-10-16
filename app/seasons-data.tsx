@@ -483,7 +483,7 @@ export const seasons: Season[] = [
           { category: "MP60", club: "Bilbao disc golf club", player: "Jose Sampedro Santin", position: 2 },
 
           { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
-          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 2 },
+          { category: "MA3", club: "Flying squirrels", player: "Enric de Pablo", position: 2 },
 
           { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 1 },
           { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "Ion Juguera", position: 2 },
@@ -516,7 +516,7 @@ export const seasons: Season[] = [
           { category: "MP60", club: "Pozuelo Disc Golf", player: "Jose Barrientos", position: 2 },
 
           { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
-          { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 2 },
+          { category: "MA3", club: "Flying squirrels", player: "Enric de Pablo", position: 2 },
 
           { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 1 },
           { category: "MA4", club: "Bilbao disc golf club", player: "Pepe Segura", position: 2 },
