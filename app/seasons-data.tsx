@@ -471,9 +471,8 @@ export const seasons: Season[] = [
           { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Neil Graefe", position: 3 },
           { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Rafael Sarriegui Hidalgo", position: 4 },
 
-          { category: "MPO", club: "Esperit disc golf club", player: "Carla Martín López", position: 1 },
-          { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Lorea Zulet Ruiz", position: 2 },
-          { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Laura Olivares Perez", position: 3 },
+          { category: "FPO", club: "Lekunberri Kirol Elkartea", player: "Lorea Zulet Ruiz", position: 1 },
+          { category: "FPO", club: "Flying squirrels", player: "Laura Olivares Perez", position: 2 },
 
           { category: "MP40", club: "Osona discgolf", player: "Matti Matinlauri", position: 1 },
           { category: "MP40", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 2 },
@@ -502,7 +501,7 @@ export const seasons: Season[] = [
           { category: "MPO", club: "Osona discgolf", player: "Matias Matinlauri Valentin", position: 4 },
           { category: "MPO", club: "Lekunberri Kirol Elkartea", player: "Neil Graefe", position: 5 },
 
-          { category: "FPO", club: "Esperit disc golf club", player: "Laura Olivares Perez", position: 2 },
+          { category: "FPO", club: "Flying squirrels", player: "Laura Olivares Perez", position: 1 },
 
           { category: "MP40", club: "Lekunberri Kirol Elkartea", player: "Kristopher Vanbogelen", position: 1 },
           { category: "MP40", club: "Osona discgolf", player: "Matti Matinlauri", position: 2 },
