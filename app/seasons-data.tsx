@@ -484,6 +484,7 @@ export const seasons: Season[] = [
 
           { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
           { category: "MA3", club: "Esperit disc golf club", player: "Enric de Pablo", position: 2 },
+          { category: "MA3", club: "Disc golf club Oviedo", player: "Francisco Leonardo Fagundes dos Santos", position: 3 },
 
           { category: "MA4", club: "Bilbao disc golf club", player: "Jon Ander Azkona", position: 1 },
           { category: "MA4", club: "Baxi Basajauna disc golf Elkartea", player: "Ion Juguera", position: 2 },
@@ -543,11 +544,12 @@ export const seasons: Season[] = [
           { category: "MP60", club: "Disc golf club Oviedo", player: "Juan Carlos Crespo", position: 3 },
 
           { category: "MA3", club: "Bilbao disc golf club", player: "Jairo Romeo", position: 1 },
-          { category: "MA3", club: "Disc golf club Oviedo", player: "Pedro Arconada Gomez", position: 2 },
-          { category: "MA3", club: "Compostela disc golf club", player: "Álvaro Brey Vilas", position: 3 },
-          { category: "MA3", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 4 },
-          { category: "MA3", club: "Asturias disc golf club", player: "	Jorge Almeida", position: 5 },
-          { category: "MA3", club: "Compostela disc golf club", player: "Jorge Suárez de Lis", position: 6 },
+          { category: "MA3", club: "Disc golf club Oviedo", player: "Francisco Leonardo Fagundes dos Santos", position: 2 },
+          { category: "MA3", club: "Disc golf club Oviedo", player: "Pedro Arconada Gomez", position: 3 },
+          { category: "MA3", club: "Compostela disc golf club", player: "Álvaro Brey Vilas", position: 4 },
+          { category: "MA3", club: "Compostela disc golf club", player: "Carlos Rubio Estrada", position: 5 },
+          { category: "MA3", club: "Asturias disc golf club", player: "	Jorge Almeida", position: 6 },
+          { category: "MA3", club: "Compostela disc golf club", player: "Jorge Suárez de Lis", position: 7 },
 
           { category: "MA4", club: "Compostela disc golf club", player: "Rodrigo Pacheco Garcia", position: 1 },
           { category: "MA4", club: "Compostela disc golf club", player: "Jorge Gomez Cereijo", position: 2 },
